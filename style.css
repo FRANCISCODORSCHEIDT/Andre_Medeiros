@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #333; /* Cor de fundo cinza escuro */
+    color: #fff; /* Texto branco */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-left: 30px;
+}
+
+header .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+header .nav-links li a:hover {
+    color: #007bff;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007bff;
+    padding: 12px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Seções */
+section {
+    padding: 60px 0;
+    background-color: #444; /* Cor de fundo cinza para as seções */
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service-item {
+    background-color: #555; /* Fundo mais claro para as caixas de serviços */
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.service-item p {
+    font-size: 1.2em;
+    color: #ccc; /* Texto em cinza claro */
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact input, .contact textarea {
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #333; /* Fundo mais escuro para os campos */
+    color: #fff;
+}
+
+.contact textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact .btn {
+    background-color: #007bff;
+    padding: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #222; /* Fundo mais escuro para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
